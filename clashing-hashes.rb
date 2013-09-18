@@ -2,14 +2,21 @@ require 'rubygems'
 require 'bundler/setup'
 require 'sinatra'
 require 'sinatra/reloader'
+require_relative 'lib/twitter'
 
+# Index page
 get '/' do
-  @name = "Bob"
-  @other_name = "Jane"
-  @show_description = true
   erb :index
 end
 
+# Form submission page
 post '/twitter' do
-  "Hello World"
+  t = Twitter::Tweet.new("UPDATED STATUS", 'Bob')
+  @tweets = [t2]
+  @tag1 = params[:tag1]
+  @tag2 = params[:tag2]
+  
+  erb :twitter
 end
+
+#

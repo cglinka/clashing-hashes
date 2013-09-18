@@ -2,17 +2,22 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Mono);
 
 body {
-  background-color: #80D4DF;
+  background-color: #AACCDD;
+  font-family: Lato, serif
+}
+
+div {
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
 }
 
 h1 {
-  font-family: PT Mono;
+  font-family: PT Mono, serif;
+  color: #3D4A4C;
 }
 
-p {
-  font-family: Lato;
-}
-
-label {
-  font-family: Lato;
+span.tag {
+  background-color: #79E4F2;
 }
