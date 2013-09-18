@@ -7,32 +7,18 @@
 
   <body>
 
+    <div>
+      <h1>CLASHING HASHES</h1>
 
-    <h1>HEADER IS SO EXCITING</h1>
+      <p> DUN DUN DUN</p>
 
-    <p>Okay, not really, but here is the point of this page:</p>
-
-    <h1>CLASHING HASHES!!!!!</h1>
-
-    <p>More exciting, right?!</p>
-
-    <!-- - INPUT STUFFFFF -->
-    <form action="/twitter" method="post">
-      <label>Hashtag #1: </label><input id="tag1" type="text" placeholder="Hashtag #1!">
-      <label>Hashtag #2: </label><input id="tag2" tyepe="text" placeholder="Hashtag #2!">
-      <input type="submit" >
-    </form>
-
-
-    <h1>My name is <%= @name %></h1>
-    <h1>Another name is <%= @other_name %></h1>
-
-    <p>Here is a very exciting paragraph. I'm sure you are so excited to be reading this paragraph.</p>
-
-    <h1>My name is <%= @name %></h1>
-    <% if @show_description %>
-      <p>This is my description</p>
-    <% end %>
-
+      <!-- INPUT STUFF -->
+      <form action="/twitter" method="post">
+        <input name="tag1" type="text" placeholder="Hashtag #1!" autofocus>
+        <input name="tag2" tyepe="text" placeholder="Hashtag #2!">
+        <input type="submit" >
+      </form>
+      <!-- END INPUT STUFF -->
+    </div>
   </body>
 <html>
