@@ -4,5 +4,7 @@ require 'sinatra'
 require 'sinatra/reloader'
 
 get '/' do
-  'hello world'
+  # name = "Clare"
+  # "<h1>hello #{namebu}<h1>"
+  erb :index
 end
