@@ -1,5 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Lato);
-@import url(http://fonts.googleapis.com/css?family=PT+Mono);
 
 body {
   background-color: #AACCDD;
@@ -18,6 +16,6 @@ h1 {
   color: #3D4A4C;
 }
 
-span.tag {
+span.highlight {
   background-color: #79E4F2;
 }
