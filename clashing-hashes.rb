@@ -2,7 +2,7 @@ require 'rubygems'
 require 'bundler/setup'
 require 'sinatra'
 require 'sinatra/reloader'
-require_relative 'lib/twitter'
+require 'twitter'
 
 # Index page
 get '/' do
