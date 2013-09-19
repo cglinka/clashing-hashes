@@ -30,13 +30,9 @@ module FollowerClash
     end
 
     def compare
-      if @user1.followers == @user2.followers
-        return "It's a tie!"
-      elsif @user1.followers > @user2.followers
-        return @user1.login
-      elsif @user2.followers > @user1.followers
-        return @user2.login
-      end
+      return "It's a tie!" if @user1.followers == @user2.followers
+      return @user1.login if @user1.followers > @user2.followers
+      return @user2.login if @user2.followers > @user1.followers
     end
   end
 end
